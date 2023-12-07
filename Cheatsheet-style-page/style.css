@@ -1,0 +1,87 @@
+.root {
+    --black: #33393f;
+    --light-blue: #2aefcb;
+    --whitish: #e0eae4;
+    --pink: #e866ec;
+}
+::selection {
+    background-color: var(--black);
+    color: var(--black);
+    
+}
+body{
+    background-color: var(--black);
+}
+h1, h2, p {
+    color: #e866ec;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.5rem;
+}
+h5 {
+    font-size: 2rem;
+}
+h6 {
+    font-size: 1.5rem;
+}
+
+code {
+    color: var(--whitish);
+}
+
+
+.car-header {
+    border: 2px solid var(--whitish);
+    border-radius: 10px;
+    position: relative;
+    margin-left: 0.5em;
+}
+.code-block {
+    background-image: linear-gradient(
+        rgba ()
+    );
+    min-height: ;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.page-title {
+
+}
+.card-column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+.code-card {
+    border: 2px dashed var(--whitish)
+}
+@media screen and (min-width: 768px) {
+    .card-column {
+        flex: 1 0 50%;
+    }
+    
+} 
+    
+@media screen and (min-width: 992px) {
+    .card-column {
+        flex: 1 0 33%;
+    }
+    
+}
